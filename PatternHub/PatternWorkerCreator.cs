@@ -1,5 +1,6 @@
 ﻿using BaseElements;
 
+
 namespace PatternHub;
 
 public class PatternWorkerCreator // Tasarım deseni çalışanlarını yöneten bir sınıf.
@@ -16,7 +17,8 @@ public class PatternWorkerCreator // Tasarım deseni çalışanlarını yöneten
 		var patternWorkers = new List<PatternWorker>
 		{
 			new SingletonPatternExample.JobWorker(),
-			new SingletonPatternExamplePart2.JobWorker(),
+			new SingletonPatternExamplePart1.JobWorker(),
+			new SingletonPattern.Tests.JobWorker(),
 		};
 		// Her PatternWorker için benzersiz bir anahtar olarak kullanılacak sayaç.
 		var itemNumber = 1;

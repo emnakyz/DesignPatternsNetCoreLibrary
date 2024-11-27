@@ -1,4 +1,4 @@
-﻿namespace SingletonPatternExamplePart2;
+﻿namespace SingletonPatternExamplePart1.Services;
 
 internal partial class ChocolateMixer
 {

@@ -6,7 +6,7 @@ namespace SingletonPatternExample;
 
 public class JobWorker : PatternWorker
 {
-	public override string Name => "Singleton - Creational Pattern";
+	public override string Name => "SingletonPatternExample";
 
 	public override void Worker()
 	{

@@ -1,10 +1,11 @@
 ﻿using BaseElements;
+using SingletonPatternExamplePart1.Services;
 
-namespace SingletonPatternExamplePart2;
+namespace SingletonPatternExamplePart1;
 
 public class JobWorker : PatternWorker
 {
-	public override string Name => "Singleton - Creational Pattern";
+	public override string Name => "SingletonPatternExamplePart1";
 
 	public override void Worker()
 	{

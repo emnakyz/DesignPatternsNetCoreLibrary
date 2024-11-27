@@ -9,8 +9,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BaseElements\BaseElements.csproj" />
+    <ProjectReference Include="..\CreationalPatterns\Singleton\SingletonPattern.Tests\SingletonPattern.Tests.csproj" />
+    <ProjectReference Include="..\CreationalPatterns\Singleton\SingletonPatternExamplePart1\SingletonPatternExamplePart1.csproj" />
     <ProjectReference Include="..\CreationalPatterns\Singleton\SingletonPatternExample\SingletonPatternExample.csproj" />
-    <ProjectReference Include="..\SingletonPatternExamplePart2\SingletonPatternExamplePart2.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternHub", "PatternHub\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternExample", "CreationalPatterns\Singleton\SingletonPatternExample\SingletonPatternExample.csproj", "{3357A0BF-4FEF-4010-92F4-0A5F93FCA59A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternExamplePart2", "SingletonPatternExamplePart2\SingletonPatternExamplePart2.csproj", "{1865A7C3-840F-42E3-8AC9-D3906AA43614}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern.Tests", "CreationalPatterns\Singleton\SingletonPattern.Tests\SingletonPattern.Tests.csproj", "{723FEC74-D6FE-4CF2-8861-681F9E5FFB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternExamplePart1", "CreationalPatterns\Singleton\SingletonPatternExamplePart1\SingletonPatternExamplePart1.csproj", "{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +35,14 @@ Global
 		{3357A0BF-4FEF-4010-92F4-0A5F93FCA59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3357A0BF-4FEF-4010-92F4-0A5F93FCA59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3357A0BF-4FEF-4010-92F4-0A5F93FCA59A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1865A7C3-840F-42E3-8AC9-D3906AA43614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1865A7C3-840F-42E3-8AC9-D3906AA43614}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1865A7C3-840F-42E3-8AC9-D3906AA43614}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1865A7C3-840F-42E3-8AC9-D3906AA43614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723FEC74-D6FE-4CF2-8861-681F9E5FFB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723FEC74-D6FE-4CF2-8861-681F9E5FFB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723FEC74-D6FE-4CF2-8861-681F9E5FFB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723FEC74-D6FE-4CF2-8861-681F9E5FFB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{775598E6-3F67-401A-B041-823B59F7B771} = {B59406EC-37A3-417B-A416-4CC9C2BBACDF}
 		{3357A0BF-4FEF-4010-92F4-0A5F93FCA59A} = {775598E6-3F67-401A-B041-823B59F7B771}
-		{1865A7C3-840F-42E3-8AC9-D3906AA43614} = {775598E6-3F67-401A-B041-823B59F7B771}
+		{723FEC74-D6FE-4CF2-8861-681F9E5FFB45} = {775598E6-3F67-401A-B041-823B59F7B771}
+		{CDD30919-A9B6-40A9-B3D5-445F4EA1BB19} = {775598E6-3F67-401A-B041-823B59F7B771}
 	EndGlobalSection
 EndGlobal
