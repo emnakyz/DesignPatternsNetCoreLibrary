@@ -1,46 +1,58 @@
 # DesignPatternsNetCoreLibrary
 
-This project, DesignPatternsNetCoreLibrary, contains short examples of design patterns implemented in .NET Core. These patterns are widely recognized solutions to common problems in software design and are demonstrated in simple, easy-to-understand code samples.
+**DesignPatternsNetCoreLibrary** projesi, .NET Core kullanarak uygulanmış kısa tasarım deseni örnekleri içermektedir. Bu desenler, yazılım tasarımındaki yaygın problemlere yönelik genel, tekrar edilebilir çözümler sunar ve basit, anlaşılır kod örnekleriyle gösterilmektedir.
 
-What is a Design Pattern?
-A design pattern is a general, repeatable solution to a common problem in software design. It’s not a finished design but a template that helps solve problems in a flexible and reusable way. By using design patterns, developers can avoid reinventing the wheel, reduce code complexity, and improve readability and maintainability.
+## Tasarım Deseni Nedir?
 
-Design Pattern Categories
-Design patterns are classified into three main categories:
+**Tasarım deseni**, yazılım tasarımında sıkça karşılaşılan bir probleme genel, tekrar edilebilir bir çözümdür. Tasarım desenleri tamamlanmış bir tasarım değildir; belirli bir duruma uyarlanarak esnek ve yeniden kullanılabilir çözümler sunar. Tasarım desenleri, geliştiricilerin sıfırdan çözüm üretmek yerine en iyi uygulamaları kullanmalarına yardımcı olarak karmaşıklığı azaltır ve kodun bakımını kolaylaştırır.
 
-Creational Patterns
-These patterns focus on object creation mechanisms, trying to create objects in a way suitable to the situation.
+## Tasarım Deseni Türleri
 
-Singleton
-Factory Method
-Abstract Factory
-Builder
-Prototype
-Structural Patterns
-These patterns deal with object composition and structure, ensuring that objects and classes work together in an efficient way.
+Tasarım desenleri üç ana kategoriye ayrılır:
 
-Adapter
-Bridge
-Composite
-Decorator
-Facade
-Flyweight
-Proxy
-Behavioral Patterns
-These patterns focus on communication between objects, helping to ensure flexible and efficient control flow.
+### 1. Yaratıcı Desenler (Creational Patterns)
+Bu desenler, nesne oluşturma mekanizmalarını ele alır ve nesnelerin durumlarına göre yaratılmasını sağlar.
+- **Singleton**
+- **Factory Method**
+- **Abstract Factory**
+- **Builder**
+- **Prototype**
 
-Chain of Responsibility
-Command
-Interpreter
-Iterator
-Mediator
-Memento
-Observer
-State
-Strategy
-Template Method
-Visitor
-Features of the Project
-Simple and easy-to-understand examples of design patterns.
-Implemented using .NET Core to demonstrate the power of design patterns in modern software development.
-Each design pattern is presented with an example that can be directly integrated into your own projects.
+### 2. Yapısal Desenler (Structural Patterns)
+Bu desenler, nesne ve sınıf yapılarını ve birleşimlerini yönetir, nesnelerin ve sınıfların verimli bir şekilde birlikte çalışmasını sağlar.
+- **Adapter**
+- **Bridge**
+- **Composite**
+- **Decorator**
+- **Facade**
+- **Flyweight**
+- **Proxy**
+
+### 3. Davranışsal Desenler (Behavioral Patterns)
+Bu desenler, nesneler arasındaki iletişimi düzenler ve kontrol akışını esnek ve verimli bir şekilde yönlendirir.
+- **Chain of Responsibility**
+- **Command**
+- **Interpreter**
+- **Iterator**
+- **Mediator**
+- **Memento**
+- **Observer**
+- **State**
+- **Strategy**
+- **Template Method**
+- **Visitor**
+
+## Projenin Özellikleri
+
+- Her tasarım deseni için **basit ve anlaşılır** kod örnekleri.
+- **.NET Core** ile uygulanmış, modern yazılım geliştirme süreçlerine uygun örnekler.
+- Tasarım desenlerinin kolayca projelere entegre edilebilecek şekilde sunulması.
+- Kodun her biri, ilgili deseni kullanarak yazılım geliştirmede karşılaşılan yaygın problemleri çözmek için hazırlanmıştır.
+
+## Kullanım
+
+Proje içerisindeki örnekleri kendi projelerinizde kullanabilir ve ihtiyaçlarınıza göre özelleştirebilirsiniz. Her bir desene dair açıklamalar ve kullanım detayları, proje içerisinde yer alan yorumlar ve dokümantasyonlarla birlikte sunulmuştur.
+
+---
+
+Bu proje, yazılım geliştiricilerin tasarım desenlerini kolayca öğrenebileceği ve pratik yapabileceği bir kaynaktır.
