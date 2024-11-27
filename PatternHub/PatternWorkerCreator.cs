@@ -16,6 +16,7 @@ public class PatternWorkerCreator // Tasarım deseni çalışanlarını yöneten
 		var patternWorkers = new List<PatternWorker>
 		{
 			new SingletonPatternExample.JobWorker(),
+			new SingletonPatternExamplePart2.JobWorker(),
 		};
 		// Her PatternWorker için benzersiz bir anahtar olarak kullanılacak sayaç.
 		var itemNumber = 1;

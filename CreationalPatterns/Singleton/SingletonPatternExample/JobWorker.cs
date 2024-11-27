@@ -3,13 +3,7 @@ using SingletonPatternExample.Types;
 
 namespace SingletonPatternExample;
 
-/// <summary>
-/// .NET 4 (veya üzeri) kullanıyorsanız, tembelliği gerçekten basit hale getirmek için Lazy<T> türünü kullanabilirsiniz.
-/// Ayrıca, ihtiyacınız varsa, örneğin henüz IsValueCreated özelliğiyle
-/// oluşturulup oluşturulmadığını kontrol etmenize olanak tanır.
-/// Bu kod, iş parçacığı güvenlik modu olarak dolaylı olarak LazyThreadSafetyMode.ExecutionAndPublication kullanır.
-/// Gereksinimlerinize bağlı olarak, diğer modlarla denemeler yapmak isteyebilirsiniz.
-/// </summary>
+
 public class JobWorker : PatternWorker
 {
 	public override string Name => "Singleton - Creational Pattern";
@@ -32,7 +26,6 @@ public class JobWorker : PatternWorker
 		//DoubleCheckGreeter.Instance.Greet();
 		//LocklessGreeter.Instance.Greet();
 		//LocklessFullyLazyGreeter.Instance.Greet();
-		//DotNetLazyGreeter.Instance.Greet();
 		DotNetLazyGreeter.Instance.Greet();
 	}
 }

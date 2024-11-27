@@ -1,7 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -9,8 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BaseElements\BaseElements.csproj" />
-    <ProjectReference Include="..\CreationalPatterns\Singleton\SingletonPatternExample\SingletonPatternExample.csproj" />
-    <ProjectReference Include="..\SingletonPatternExamplePart2\SingletonPatternExamplePart2.csproj" />
   </ItemGroup>
 
 </Project>
