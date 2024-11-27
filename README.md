@@ -1,4 +1,4 @@
-# DesignPatternsNetCoreLibrary
+# DesignPatternsNetCoreLibrary-.NET 9.0
 
 **DesignPatternsNetCoreLibrary** is a project that contains short examples of design patterns implemented using .NET Core. These patterns provide general, repeatable solutions to common software design problems and are demonstrated through simple, easy-to-understand code examples.
 
