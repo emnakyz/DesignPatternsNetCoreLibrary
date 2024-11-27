@@ -1,25 +1,25 @@
 # DesignPatternsNetCoreLibrary
 
-**DesignPatternsNetCoreLibrary** projesi, .NET Core kullanarak uygulanmış kısa tasarım deseni örnekleri içermektedir. Bu desenler, yazılım tasarımındaki yaygın problemlere yönelik genel, tekrar edilebilir çözümler sunar ve basit, anlaşılır kod örnekleriyle gösterilmektedir.
+**DesignPatternsNetCoreLibrary** is a project that contains short examples of design patterns implemented using .NET Core. These patterns provide general, repeatable solutions to common software design problems and are demonstrated through simple, easy-to-understand code examples.
 
-## Tasarım Deseni Nedir?
+## What is a Design Pattern?
 
-**Tasarım deseni**, yazılım tasarımında sıkça karşılaşılan bir probleme genel, tekrar edilebilir bir çözümdür. Tasarım desenleri tamamlanmış bir tasarım değildir; belirli bir duruma uyarlanarak esnek ve yeniden kullanılabilir çözümler sunar. Tasarım desenleri, geliştiricilerin sıfırdan çözüm üretmek yerine en iyi uygulamaları kullanmalarına yardımcı olarak karmaşıklığı azaltır ve kodun bakımını kolaylaştırır.
+A **design pattern** is a general, repeatable solution to a commonly occurring problem in software design. It is not a finished design but rather a template for solving a problem that can be customized to suit a particular situation. Design patterns help developers avoid reinventing the wheel, reduce complexity, and improve code readability and maintainability.
 
-## Tasarım Deseni Türleri
+## Design Pattern Categories
 
-Tasarım desenleri üç ana kategoriye ayrılır:
+Design patterns are generally classified into three main categories:
 
-### 1. Yaratıcı Desenler (Creational Patterns)
-Bu desenler, nesne oluşturma mekanizmalarını ele alır ve nesnelerin durumlarına göre yaratılmasını sağlar.
+### 1. Creational Patterns
+These patterns focus on object creation mechanisms, aiming to create objects in a manner suitable for the situation.
 - **Singleton**
 - **Factory Method**
 - **Abstract Factory**
 - **Builder**
 - **Prototype**
 
-### 2. Yapısal Desenler (Structural Patterns)
-Bu desenler, nesne ve sınıf yapılarını ve birleşimlerini yönetir, nesnelerin ve sınıfların verimli bir şekilde birlikte çalışmasını sağlar.
+### 2. Structural Patterns
+These patterns deal with object composition and structure, ensuring that objects and classes can work together in an efficient way.
 - **Adapter**
 - **Bridge**
 - **Composite**
@@ -28,8 +28,8 @@ Bu desenler, nesne ve sınıf yapılarını ve birleşimlerini yönetir, nesnele
 - **Flyweight**
 - **Proxy**
 
-### 3. Davranışsal Desenler (Behavioral Patterns)
-Bu desenler, nesneler arasındaki iletişimi düzenler ve kontrol akışını esnek ve verimli bir şekilde yönlendirir.
+### 3. Behavioral Patterns
+These patterns focus on communication between objects, ensuring that control flow is flexible and efficient.
 - **Chain of Responsibility**
 - **Command**
 - **Interpreter**
@@ -42,17 +42,17 @@ Bu desenler, nesneler arasındaki iletişimi düzenler ve kontrol akışını es
 - **Template Method**
 - **Visitor**
 
-## Projenin Özellikleri
+## Features of the Project
 
-- Her tasarım deseni için **basit ve anlaşılır** kod örnekleri.
-- **.NET Core** ile uygulanmış, modern yazılım geliştirme süreçlerine uygun örnekler.
-- Tasarım desenlerinin kolayca projelere entegre edilebilecek şekilde sunulması.
-- Kodun her biri, ilgili deseni kullanarak yazılım geliştirmede karşılaşılan yaygın problemleri çözmek için hazırlanmıştır.
+- Simple and understandable code examples for each design pattern.
+- Implemented using **.NET Core** to demonstrate modern software development practices.
+- Each pattern is presented with an example that can be easily integrated into your own projects.
+- The code is designed to solve common problems faced in software development by using the best practices provided by design patterns.
 
-## Kullanım
+## Usage
 
-Proje içerisindeki örnekleri kendi projelerinizde kullanabilir ve ihtiyaçlarınıza göre özelleştirebilirsiniz. Her bir desene dair açıklamalar ve kullanım detayları, proje içerisinde yer alan yorumlar ve dokümantasyonlarla birlikte sunulmuştur.
+You can use the examples provided in the project in your own applications and customize them according to your needs. Detailed explanations and usage instructions for each pattern are provided within the code comments and documentation.
 
 ---
 
-Bu proje, yazılım geliştiricilerin tasarım desenlerini kolayca öğrenebileceği ve pratik yapabileceği bir kaynaktır.
+This project is a great resource for software developers to learn and practice design patterns.
